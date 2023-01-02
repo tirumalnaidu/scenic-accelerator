@@ -1,0 +1,127 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'dnn_hw_top' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Information: Timing loop detected. (OPT-150)
+	ml_ctrl_fsm_inst/U59/B2 ml_ctrl_fsm_inst/U59/ZN ml_ctrl_fsm_inst/pe_compute_ctrl_reg[3]/G ml_ctrl_fsm_inst/pe_compute_ctrl_reg[3]/Q pe_array_inst/U642/A pe_array_inst/U642/Z pe_array_inst/U528/A pe_array_inst/U528/Z pe_array_inst/genblk1[3].genblk1[3].pe_inst/mult_inst/U11/A pe_array_inst/genblk1[3].genblk1[3].pe_inst/mult_inst/U11/ZN pe_array_inst/genblk1[3].genblk1[3].pe_inst/mult_inst/U9/A pe_array_inst/genblk1[3].genblk1[3].pe_inst/mult_inst/U9/ZN pe_array_inst/genblk1[3].genblk1[3].pe_inst/mult_inst/U24/A1 pe_array_inst/genblk1[3].genblk1[3].pe_inst/mult_inst/U24/ZN pe_array_inst/U707/A1 pe_array_inst/U707/ZN pe_array_inst/U711/A1 pe_array_inst/U711/ZN pe_array_inst/U712/A1 pe_array_inst/U712/ZN pe_array_inst/U691/A1 pe_array_inst/U691/ZN ml_ctrl_fsm_inst/U200/A1 ml_ctrl_fsm_inst/U200/ZN 
+Warning: Disabling timing arc between pins 'G' and 'Q' on cell 'ml_ctrl_fsm_inst/pe_compute_ctrl_reg[3]'
+         to break a timing loop. (OPT-314)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : dnn_hw_top
+Version: L-2016.03-SP3
+Date   : Mon Oct 11 11:44:11 2021
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/M_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/A_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  dnn_hw_top         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/M_reg[0]/CK (DFF_X1)
+                                                          0.00 #     0.00 r
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/M_reg[0]/QN (DFF_X1)
+                                                          0.08       0.08 f
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/subtracter/b[0] (alu_338)
+                                                          0.00       0.08 f
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/subtracter/add_1_root_add_44_2/B[0] (alu_338_DW01_add_0)
+                                                          0.00       0.08 f
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/subtracter/add_1_root_add_44_2/U1_0/CO (FA_X1)
+                                                          0.12       0.20 f
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/subtracter/add_1_root_add_44_2/U4/ZN (NAND2_X1)
+                                                          0.04       0.23 r
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/subtracter/add_1_root_add_44_2/U6/ZN (NAND3_X1)
+                                                          0.04       0.27 f
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/subtracter/add_1_root_add_44_2/U1_2/CO (FA_X1)
+                                                          0.09       0.37 f
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/subtracter/add_1_root_add_44_2/U1_3/CO (FA_X1)
+                                                          0.09       0.46 f
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/subtracter/add_1_root_add_44_2/U1_4/CO (FA_X1)
+                                                          0.09       0.55 f
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/subtracter/add_1_root_add_44_2/U1_5/CO (FA_X1)
+                                                          0.09       0.65 f
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/subtracter/add_1_root_add_44_2/U1_6/CO (FA_X1)
+                                                          0.09       0.74 f
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/subtracter/add_1_root_add_44_2/U1_7/S (FA_X1)
+                                                          0.11       0.85 f
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/subtracter/add_1_root_add_44_2/SUM[7] (alu_338_DW01_add_0)
+                                                          0.00       0.85 f
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/subtracter/out[7] (alu_338)
+                                                          0.00       0.85 f
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/U8/ZN (AOI22_X1)
+                                                          0.06       0.92 r
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/U6/ZN (NAND2_X1)
+                                                          0.03       0.95 f
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/A_reg[7]/D (DFF_X1)
+                                                          0.01       0.96 f
+  data arrival time                                                  0.96
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  pe_array_inst/genblk1[3].genblk1[10].pe_inst/mult_inst/A_reg[7]/CK (DFF_X1)
+                                                          0.00       1.00 r
+  library setup time                                     -0.04       0.96
+  data required time                                                 0.96
+  --------------------------------------------------------------------------
+  data required time                                                 0.96
+  data arrival time                                                 -0.96
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: fifo_buf_bk_inst/genblk1[0].fifo_of/fifo_ram/bypass_gen.bypass_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: sram_of_out[0][0]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  dnn_hw_top         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  fifo_buf_bk_inst/genblk1[0].fifo_of/fifo_ram/bypass_gen.bypass_reg/CK (DFF_X1)
+                                                          0.00 #     0.00 r
+  fifo_buf_bk_inst/genblk1[0].fifo_of/fifo_ram/bypass_gen.bypass_reg/Q (DFF_X1)
+                                                          0.18       0.18 r
+  fifo_buf_bk_inst/genblk1[0].fifo_of/fifo_ram/U151/ZN (OAI22_X1)
+                                                          0.05       0.24 f
+  fifo_buf_bk_inst/genblk1[0].fifo_of/fifo_ram/dout[0] (simple_dpram_sclk_ADDR_WIDTH4_DATA_WIDTH16_NUM_MEM15_ENABLE_BYPASS1_14)
+                                                          0.00       0.24 f
+  fifo_buf_bk_inst/genblk1[0].fifo_of/rd_data_o[0] (fifo_DEPTH_WIDTH4_DATA_WIDTH16_NUM_MEM15_14)
+                                                          0.00       0.24 f
+  fifo_buf_bk_inst/rd_of_data_o[0][0] (fifo_buffer_bank_DEPTH_WIDTH15_DATA_WIDTH8_NUM_BANKS15)
+                                                          0.00       0.24 f
+  sram_of_out[0][0] (out)                                 0.00       0.24 f
+  data arrival time                                                  0.24
+
+  max_delay                                               1.00       1.00
+  output external delay                                   0.00       1.00
+  data required time                                                 1.00
+  --------------------------------------------------------------------------
+  data required time                                                 1.00
+  data arrival time                                                 -0.24
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.76
+
+
+1

@@ -1,0 +1,18 @@
+dnn_hw_top
+|------> ml_ctrl_fsm
+|------> fifo_buffer_bank
+		 |------> fifo
+		 		  |------> simple_dpram_sclk
+|------> pe_array
+		 |------> mux_param
+		 |------> PE
+		 		  |------> regfile
+		 		  |------> mux1to2
+		 		  |------> mux2to1
+		 		  |------> serial_adder
+		 		           |-------> piso
+		 		           |-------> full_adder
+		 		           |-------> d_flipflop
+		 		  |------> booth_multiplier
+		 		  		   |-------> alu
+		 

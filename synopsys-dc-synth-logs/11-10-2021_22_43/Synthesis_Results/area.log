@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : dnn_hw_top
+Version: L-2016.03-SP3
+Date   : Mon Oct 11 11:44:11 2021
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /nfs/sc/disks/mvds_nn_arch_disk001/araha/papers_patents/synthesis/NangateOpenCellLibrary/NangateOpenCellLibrary.db)
+
+Number of ports:                       106229
+Number of nets:                        267571
+Number of cells:                       156218
+Number of combinational cells:         120759
+Number of sequential cells:             32229
+Number of macros/black boxes:               0
+Number of buf/inv:                      41977
+Number of references:                       3
+
+Combinational area:             124790.709100
+Buf/Inv area:                    24492.747999
+Noncombinational area:          140253.548927
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                265044.258027
+Total area:                 undefined
+
+Information: This design contains black box (unknown) components. (RPT-8)
+1

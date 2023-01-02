@@ -1,0 +1,105 @@
+/home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/ml_ctrl_fsm.sv {1 {vlog -work work -sv -stats=none /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/ml_ctrl_fsm.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ml_ctrl_fsm
+
+Top level modules:
+	ml_ctrl_fsm
+
+} {} {}} /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/fifo.sv {1 {vlog -work work -sv -stats=none /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/fifo.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fifo
+
+Top level modules:
+	fifo
+
+} {} {}} /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/booth_mult.sv {1 {vlog -work work -sv -stats=none /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/booth_mult.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module booth_multiplier
+-- Compiling module alu
+
+Top level modules:
+	booth_multiplier
+
+} {} {}} /home/tirumal/RP/brain-tumor-nn-accelerator/src/tb/conv_tb.sv {1 {vlog -work work -sv -stats=none /home/tirumal/RP/brain-tumor-nn-accelerator/src/tb/conv_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module conv_tb_v2
+
+Top level modules:
+	conv_tb_v2
+
+} {} {}} /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/pe_multi_mac.sv {1 {vlog -work work -sv -stats=none /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/pe_multi_mac.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PE_multi_mac
+
+Top level modules:
+	PE_multi_mac
+
+} {} {}} /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/serial_adder.sv {1 {vlog -work work -sv -stats=none /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/serial_adder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module d_flipflop
+-- Compiling module full_adder
+-- Compiling module piso
+-- Compiling module serial_adder
+
+Top level modules:
+	serial_adder
+
+} {} {}} /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/fifo_buffer_bank.sv {1 {vlog -work work -sv -stats=none /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/fifo_buffer_bank.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fifo_buffer_bank
+
+Top level modules:
+	fifo_buffer_bank
+
+} {} {}} /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/simple_dpram_sclk.sv {1 {vlog -work work -sv -stats=none /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/simple_dpram_sclk.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module simple_dpram_sclk
+
+Top level modules:
+	simple_dpram_sclk
+
+} {} {}} /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/muxes.sv {1 {vlog -work work -sv -stats=none /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/muxes.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_param
+-- Compiling module mux2to1
+-- Compiling module mux1to2
+-- Compiling module mux_4x1
+-- Compiling module demux_1x4
+-- Compiling module demux_1x15
+
+Top level modules:
+	mux_param
+	mux1to2
+	mux_4x1
+	demux_1x4
+	demux_1x15
+
+} {} {}} /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/pe_array.sv {1 {vlog -work work -sv -stats=none /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/pe_array.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pe_array
+
+Top level modules:
+	pe_array
+
+} {} {}} /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/pe.sv {1 {vlog -work work -sv -stats=none /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/pe.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PE
+
+Top level modules:
+	PE
+
+} {} {}} /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/regfile.sv {1 {vlog -work work -sv -stats=none /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/regfile.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/dnn_hw_top.sv {1 {vlog -work work -sv -stats=none /home/tirumal/RP/brain-tumor-nn-accelerator/src/rtl/dnn_hw_top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dnn_hw_top
+
+Top level modules:
+	dnn_hw_top
+
+} {} {}}

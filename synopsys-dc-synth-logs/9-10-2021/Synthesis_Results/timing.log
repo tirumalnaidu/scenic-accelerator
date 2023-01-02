@@ -1,0 +1,110 @@
+Warning: Design 'dnn_hw_top' has '451' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Updating design information... (UID-85)
+Warning: Design 'dnn_hw_top' contains 5 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : dnn_hw_top
+Version: L-2016.03-SP3
+Date   : Sun Oct 10 11:16:52 2021
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: fifo_buf_bk_inst/genblk1[1].fifo_if/read_pointer_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: fifo_buf_bk_inst/genblk1[1].fifo_if/fifo_ram/rdata_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  dnn_hw_top         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  fifo_buf_bk_inst/genblk1[1].fifo_if/read_pointer_reg[2]/CK (DFF_X1)
+                                                          0.00 #     0.00 r
+  fifo_buf_bk_inst/genblk1[1].fifo_if/read_pointer_reg[2]/Q (DFF_X1)
+                                                          0.14       0.14 r
+  fifo_buf_bk_inst/genblk1[1].fifo_if/fifo_ram/raddr[2] (simple_dpram_sclk_ADDR_WIDTH4_DATA_WIDTH8_NUM_MEM15_ENABLE_BYPASS1_13)
+                                                          0.00       0.14 r
+  fifo_buf_bk_inst/genblk1[1].fifo_if/fifo_ram/U77/ZN (INV_X1)
+                                                          0.05       0.19 f
+  fifo_buf_bk_inst/genblk1[1].fifo_if/fifo_ram/U45/ZN (NOR2_X2)
+                                                          0.15       0.34 r
+  fifo_buf_bk_inst/genblk1[1].fifo_if/fifo_ram/U347/ZN (AND2_X1)
+                                                          0.17       0.51 r
+  fifo_buf_bk_inst/genblk1[1].fifo_if/fifo_ram/U349/ZN (AOI222_X1)
+                                                          0.06       0.57 f
+  fifo_buf_bk_inst/genblk1[1].fifo_if/fifo_ram/U358/ZN (OAI221_X1)
+                                                          0.07       0.65 r
+  fifo_buf_bk_inst/genblk1[1].fifo_if/fifo_ram/U5/ZN (NAND2_X1)
+                                                          0.03       0.68 f
+  fifo_buf_bk_inst/genblk1[1].fifo_if/fifo_ram/U314/ZN (OAI21_X1)
+                                                          0.04       0.72 r
+  fifo_buf_bk_inst/genblk1[1].fifo_if/fifo_ram/rdata_reg[0]/D (DFF_X1)
+                                                          0.01       0.73 r
+  data arrival time                                                  0.73
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  fifo_buf_bk_inst/genblk1[1].fifo_if/fifo_ram/rdata_reg[0]/CK (DFF_X1)
+                                                          0.00       1.00 r
+  library setup time                                     -0.03       0.97
+  data required time                                                 0.97
+  --------------------------------------------------------------------------
+  data required time                                                 0.97
+  data arrival time                                                 -0.73
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.24
+
+
+  Startpoint: fifo_buf_bk_inst/genblk1[0].fifo_of/fifo_ram/bypass_gen.bypass_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: sram_of_out[0][0]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  dnn_hw_top         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  fifo_buf_bk_inst/genblk1[0].fifo_of/fifo_ram/bypass_gen.bypass_reg/CK (DFF_X1)
+                                                          0.00 #     0.00 r
+  fifo_buf_bk_inst/genblk1[0].fifo_of/fifo_ram/bypass_gen.bypass_reg/Q (DFF_X1)
+                                                          0.18       0.18 r
+  fifo_buf_bk_inst/genblk1[0].fifo_of/fifo_ram/U215/ZN (OAI22_X1)
+                                                          0.05       0.24 f
+  fifo_buf_bk_inst/genblk1[0].fifo_of/fifo_ram/dout[0] (simple_dpram_sclk_ADDR_WIDTH4_DATA_WIDTH16_NUM_MEM15_ENABLE_BYPASS1_14)
+                                                          0.00       0.24 f
+  fifo_buf_bk_inst/genblk1[0].fifo_of/rd_data_o[0] (fifo_DEPTH_WIDTH4_DATA_WIDTH16_NUM_MEM15_14)
+                                                          0.00       0.24 f
+  fifo_buf_bk_inst/rd_of_data_o[0][0] (fifo_buffer_bank_DEPTH_WIDTH15_DATA_WIDTH8_NUM_BANKS15)
+                                                          0.00       0.24 f
+  sram_of_out[0][0] (out)                                 0.00       0.24 f
+  data arrival time                                                  0.24
+
+  max_delay                                               1.00       1.00
+  output external delay                                   0.00       1.00
+  data required time                                                 1.00
+  --------------------------------------------------------------------------
+  data required time                                                 1.00
+  data arrival time                                                 -0.24
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.76
+
+
+1
