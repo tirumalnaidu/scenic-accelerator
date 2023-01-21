@@ -1,6 +1,6 @@
 module ml_ctrl_fsm #(
-	parameter X_DIM = 5,
-  	parameter Y_DIM = 5
+	parameter X_DIM = 15,
+  	parameter Y_DIM = 15
 )
 (
 	input clk,
@@ -8,9 +8,9 @@ module ml_ctrl_fsm #(
 	input start,
 	input [2:0] fsm_input,
 	output reg done,
-	input [1:0] pe_resp,
+	input [2:0] pe_resp,
   	output reg [3:0] pe_mux_ctrl,
-  	output reg [4:0] pe_compute_ctrl,
+  	output reg [5:0] pe_compute_ctrl,
   	output reg  pe_if_rf_ctrl [1:0][Y_DIM-1:0],
   	output reg  pe_wt_rf_ctrl [1:0],
   	output reg  pe_of_rf_ctrl [1:0][Y_DIM-1:0],
@@ -19,14 +19,16 @@ module ml_ctrl_fsm #(
 );
 
 	// FSM states
-	localparam S0 = 3'b000;
-	localparam S1 = 3'b001;
-	localparam S2 = 3'b010;
-	localparam S3 = 3'b011;
-	localparam S4 = 3'b100;
-	localparam S5 = 3'b101;
-	localparam S6 = 3'b110;
-	localparam S7 = 3'b111;
+	localparam S0 = 4'b0000;
+	localparam S1 = 4'b0001;
+	localparam S2 = 4'b0010;
+	localparam S3 = 4'b0011;
+	localparam S4 = 4'b0100;
+	localparam S5 = 4'b0101;
+	localparam S6 = 4'b0110;
+	localparam S7 = 4'b0111;
+	localparam S8 = 4'b1000;
+	localparam S9 = 4'b1001;
 
 	// FSM inputs
 	localparam DEFAULT          = 3'b001; 
@@ -37,7 +39,7 @@ module ml_ctrl_fsm #(
 	localparam UNLD_OF_PE2BUF   = 3'b110;  
 	localparam UNLD_OF_BUF2SRAM = 3'b111; 
 
-	reg [2:0] state, next_state;
+	reg [3:0] state, next_state;
 	reg [1:0] if_fifo_ctrl_reg;
 	reg [1:0] of_fifo_ctrl_reg;
 	reg [6:0] if_data_idx, of_data_idx;
@@ -60,6 +62,7 @@ module ml_ctrl_fsm #(
 		else if(start) begin
 			if_data_idx=0;
 			of_data_idx=0;
+			pe_compute_ctrl[2] <= 1'b1;
 			next_state <= S1;
 		end
 
@@ -76,7 +79,7 @@ module ml_ctrl_fsm #(
 				end
 				else if(fsm_input==LD_IF_BUF2PE) begin
 					pe_if_rf_ctrl[0][if_data_idx] <= 1'b1;	
-					if_fifo_ctrl_reg[1] <= 1'b0;
+					if_fifo_ctrl_reg[1] <= 1'b1;
 					next_state <= S4;
 				end
 				else if(fsm_input==UNLD_OF_PE2BUF) begin
@@ -84,12 +87,13 @@ module ml_ctrl_fsm #(
 					next_state <= S6;
 				end
 				else if(fsm_input==DNNEXEC) begin
-					if(pe_resp[0]==1'b1 && pe_resp[1]==1'b0) begin
+					if(pe_resp[0]==1'b1 && pe_resp[1]==1'b0 && pe_resp==1'b0) begin
 						pe_compute_ctrl[0] <= 1'b0;
-				 		pe_compute_ctrl[1] <= 1'b0;
+				 		pe_compute_ctrl[1] <= 1'b1;
 				 		pe_compute_ctrl[2] <= 1'b0;
 				 		pe_compute_ctrl[3] <= 1'b0;
 				 		pe_compute_ctrl[4] <= 1'b1;
+						pe_compute_ctrl[5] <= 1'b0;
 					end
 					else if(pe_resp[0]==1'b1 && pe_resp[1]==1'b1) begin
 						next_state <= S5;
@@ -102,6 +106,9 @@ module ml_ctrl_fsm #(
 			end
 
 			S1: begin
+
+				pe_compute_ctrl[2] <= 1'b0;
+				
 				if(fsm_input==LD_WT_SRAM2PE) begin
 					pe_wt_rf_ctrl[0] <= 1'b1;
 					next_state <= S2;
@@ -140,33 +147,38 @@ module ml_ctrl_fsm #(
 				 	pe_compute_ctrl[2] <= 1'b0;
 				 	pe_compute_ctrl[3] <= 1'b1;
 				 	pe_compute_ctrl[4] <= 1'b0;
+					pe_compute_ctrl[5] <= 1'b0;
 				 	next_state <= S5;
 				 end 
 			end
 
 			S5: begin 
 				if(fsm_input==DNNEXEC) begin
-					if(pe_resp[0]==1'b0 && pe_resp[1]==1'b0) begin
+
+					if(pe_resp[0]==1'b0 && pe_resp[1]==1'b0 && pe_resp[2]==1'b0) begin
 						pe_compute_ctrl[0] <= 1'b1;
 					 	pe_compute_ctrl[1] <= 1'b1;
 					 	pe_compute_ctrl[2] <= 1'b0;
 					 	pe_compute_ctrl[3] <= 1'b0;
 					 	pe_compute_ctrl[4] <= 1'b0;
+						pe_compute_ctrl[5] <= 1'b0;
 					 end
-					else if(pe_resp[0]==1'b1 & pe_resp[1]==1'b0) begin
+					else if(pe_resp[0]==1'b1 && pe_resp[1]==1'b0 && pe_resp[2]==1'b0) begin
 						pe_compute_ctrl[0] <= 1'b0;
 					 	pe_compute_ctrl[1] <= 1'b1;
 					 	pe_compute_ctrl[2] <= 1'b0;
 					 	pe_compute_ctrl[3] <= 1'b0;
 					 	pe_compute_ctrl[4] <= 1'b0;
+						pe_compute_ctrl[5] <= 1'b0;
 					 	next_state <= S0;
 					 end
-					else if(pe_resp[1]==1'b1) begin
+					else if(pe_resp[1]==1'b1 && pe_resp[2]==1'b0) begin
 						pe_compute_ctrl[0] <= 1'b0;
 				 		pe_compute_ctrl[1] <= 1'b0;
 				 		pe_compute_ctrl[2] <= 1'b0;
 				 		pe_compute_ctrl[3] <= 1'b0;
-				 		pe_compute_ctrl[4] <= 1'b1;	
+				 		pe_compute_ctrl[4] <= 1'b1;
+						pe_compute_ctrl[5] <= 1'b1;	
 						next_state <= S0;
 					end
 			  	end 

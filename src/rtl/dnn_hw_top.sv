@@ -1,5 +1,5 @@
-module dnn_hw_top #(parameter X_DIM=16,
-                    parameter Y_DIM=16,
+module dnn_hw_top #(parameter X_DIM=15,
+                    parameter Y_DIM=15,
                     parameter DATA_WIDTH=8,
                     parameter FIFO_DEPTH_WIDTH=4)
                   
@@ -7,9 +7,10 @@ module dnn_hw_top #(parameter X_DIM=16,
                 input rst,
                 input start, done, 
                 input [2:0] fsm_input,
-                input [DATA_WIDTH-1:0] sram_if_in [X_DIM-1:0],
-                input [DATA_WIDTH-1:0] sram_wt_in,
-                output [2*DATA_WIDTH-1:0] sram_of_out [X_DIM-1:0][Y_DIM-1:0]
+                input [DATA_WIDTH-1:0] sram_if_in [2*X_DIM-1:0],
+                input [DATA_WIDTH-1:0] sram_wt_in_1,
+                input [DATA_WIDTH-1:0] sram_wt_in_2,
+                output [2*DATA_WIDTH-1:0] sram_of_out [X_DIM-1:0]
               );
 
   wire [DATA_WIDTH-1:0] actn_buf_wr_data [X_DIM-1:0][Y_DIM-1:0];
@@ -24,16 +25,17 @@ module dnn_hw_top #(parameter X_DIM=16,
   wire [DATA_WIDTH-1:0] fifo_wr_data_in [X_DIM-1:0];
   wire [2*DATA_WIDTH-1:0] fifo_rd_data_out [X_DIM-1:0];
 
-  wire [DATA_WIDTH-1:0] buf2pe_if_in [X_DIM-1:0];
+  wire [DATA_WIDTH-1:0] buf2pe_if_in_1 [X_DIM-1:0];
+  wire [DATA_WIDTH-1:0] buf2pe_if_in_2 [X_DIM-1:0];
   wire [DATA_WIDTH-1:0] buf2pe_wt_in;
-  wire [2*DATA_WIDTH-1:0] pe2buf_of_out [X_DIM-1:0][Y_DIM-1:0];
+  wire [2*DATA_WIDTH-1:0] pe2buf_of_out [X_DIM-1:0];
 
 
 wire [1:0] if_fifo_ctrl, wt_fifo_ctrl, of_fifo_ctrl;
 wire [1:0] if_fifo_resp, wt_fifo_resp, of_fifo_resp;
 wire [3:0] pe_mux_ctrl;
-wire [4:0] pe_compute_ctrl;
-wire [1:0] pe_resp;
+wire [5:0] pe_compute_ctrl;
+wire [2:0] pe_resp;
 
 wire  pe_if_rf_ctrl [1:0][Y_DIM-1:0];
 wire  pe_wt_rf_ctrl [1:0];
@@ -74,14 +76,14 @@ wire  pe_of_rf_ctrl [1:0][Y_DIM-1:0];
     .pe_if_rf_ctrl  (pe_if_rf_ctrl),
     .pe_wt_rf_ctrl  (pe_wt_rf_ctrl),
     .pe_of_rf_ctrl  (pe_of_rf_ctrl),
-    .actn_in        (buf2pe_if_in),
-    .filt_in        (sram_wt_in),
+    .actn_in_1      (buf2pe_if_in_1),
+    .actn_in_2      (buf2pe_if_in_2),
+    .filt_in_1      (sram_wt_in_1),
+    .filt_in_2      (sram_wt_in_2),
     .pe_out         (pe2buf_of_out),
     .pe_resp        (pe_resp)
   );
 
-  assign sram_of_out = pe2buf_of_out;
-  
   fifo_buffer_bank #(
     .DATA_WIDTH(DATA_WIDTH),
     .DEPTH_WIDTH(FIFO_DEPTH_WIDTH),
@@ -95,11 +97,10 @@ wire  pe_of_rf_ctrl [1:0][Y_DIM-1:0];
     .of_fifo_ctrl(of_fifo_ctrl),
     .of_fifo_resp(of_fifo_resp),
     .wr_if_data_i(sram_if_in),
-    .rd_if_data_o(buf2pe_if_in),
-    //.wr_of_data_i(pe2buf_of_out),
-    .wr_of_data_i(),
-    // .rd_of_data_o(sram_of_out)
-     .rd_of_data_o()
+    .rd_if_data_o_1(buf2pe_if_in_1),
+    .rd_if_data_o_2(buf2pe_if_in_2),
+    .wr_of_data_i(pe2buf_of_out),
+    .rd_of_data_o(sram_of_out)
   );
 
 endmodule

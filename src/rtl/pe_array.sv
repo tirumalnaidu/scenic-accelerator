@@ -1,25 +1,25 @@
 
-module pe_array #(parameter X_DIM = 5,
-                  parameter Y_DIM = 5,
+module pe_array #(parameter X_DIM = 15,
+                  parameter Y_DIM = 15,
                   parameter DATA_WIDTH = 8)
                   
               ( input clk,
                 input rst,
                 input [3:0] pe_mux_ctrl,
-                input [4:0] pe_compute_ctrl,
-                output [1:0] pe_resp,
+                input [5:0] pe_compute_ctrl,
+                output [2:0] pe_resp,
                 input pe_if_rf_ctrl [1:0][Y_DIM-1:0],
                 input pe_wt_rf_ctrl [1:0],
                 input pe_of_rf_ctrl [1:0][Y_DIM-1:0],
-                input [DATA_WIDTH-1:0] actn_in [Y_DIM-1:0],
-                input [DATA_WIDTH-1:0] filt_in, 
-                output reg [2*DATA_WIDTH-1:0] pe_out [X_DIM-1:0][Y_DIM-1:0]
+                input [DATA_WIDTH-1:0] actn_in_1 [Y_DIM-1:0],
+                input [DATA_WIDTH-1:0] actn_in_2 [Y_DIM-1:0],
+                input [DATA_WIDTH-1:0] filt_in_1,
+                input [DATA_WIDTH-1:0] filt_in_2,
+                output reg [2*DATA_WIDTH-1:0] pe_out [X_DIM-1:0]
               );
   
-
-  
   wire wire_actn_in_sel, wire_wt_in_sel, wire_add_in_sel, wire_pe_out_sel;
-  wire wire_mult_en, wire_add_en, wire_acc_clr, wire_mult_load, wire_acc_wr_en;
+  wire wire_mult_en, wire_add_en_1, wire_add_en_2, wire_acc_clr, wire_mult_load, wire_acc_wr_en;
 
   wire wire_if_rf_wr_en [Y_DIM-1:0];
   wire wire_wt_rf_wr_en; 
@@ -31,10 +31,11 @@ module pe_array #(parameter X_DIM = 5,
   assign wire_pe_out_sel = pe_mux_ctrl[3];
 
   assign wire_mult_en = pe_compute_ctrl[0];
-  assign wire_add_en  = pe_compute_ctrl[1];
+  assign wire_add_en_1 = pe_compute_ctrl[1];
   assign wire_acc_clr = pe_compute_ctrl[2];
   assign wire_mult_load = pe_compute_ctrl[3];
   assign wire_acc_wr_en = pe_compute_ctrl[4];
+  assign wire_add_en_2 = pe_compute_ctrl[5];
 
   assign wire_if_rf_wr_en = pe_if_rf_ctrl[0];
 
@@ -68,10 +69,13 @@ module pe_array #(parameter X_DIM = 5,
           .of_rf_wr_en(wire_of_rf_wr_en[j]),
           .mult_load  (wire_mult_load),
           .mult_en    (wire_mult_en),
-          .add_en     (wire_add_en),
+          .add_en_1   (wire_add_en_1),
+          .add_en_2   (wire_add_en_2),
           .acc_clr    (wire_acc_clr),
-          .filt_in    (filt_in),
-          .actn_in    (actn_in[i]),
+          .actn_in_1  (actn_in_1[i]),
+          .actn_in_2  (actn_in_2[i]),
+          .filt_in_1  (filt_in_1),
+          .filt_in_2  (filt_in_2),
           .pe_out     (pe_final_out[i][j]),
           .pe_resp    (pe_resp)
         );
