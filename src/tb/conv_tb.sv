@@ -63,7 +63,7 @@ Clock period = 9.606 x 10^-10 seconds = 0.9606 ns
 */
 // Total cycles: 83
 
-module conv_tb_v2();
+module conv_tb();
 
     `define NULL 0
 
@@ -166,28 +166,28 @@ module conv_tb_v2();
 
 		// modify the file path according to your system
 		$display("blk_h: %d, blk_w = %d", blk_h, blk_w);
-		filt_file = $fopen("../src/test-data/test_filt_data.txt", "r");
+		filt_file = $fopen("src/test-data/test_filt_data.txt", "r");
 		if (filt_file == `NULL) begin
 		$display("filt_file handle was NULL");
 		$finish;
 		end
 
 		// modify the file path according to your system
-		actn_file = $fopen("../src/test-data/test_actn_data.txt", "r");
+		actn_file = $fopen("src/test-data/test_actn_data.txt", "r");
 		if (actn_file == `NULL) begin
 		$display("actn_file handle was NULL");
 		$finish;
 		end
 
 		// modify the file path according to your system
-		out_file = $fopen("../src/test-data/test_out_data.txt", "w");
+		out_file = $fopen("src/test-data/test_out_data.txt", "w");
 		if (out_file == `NULL) begin
 		$display("out_file handle was NULL");
 		$finish;
 		end
 
 		// modify the file path according to your system
-		ref_out_file = $fopen("../src/test-data/ref_test_out_data.txt", "r");
+		ref_out_file = $fopen("src/test-data/ref_test_out_data.txt", "r");
 		if (ref_out_file == `NULL) begin
 		$display("ref_out_file handle was NULL");
 		$finish;

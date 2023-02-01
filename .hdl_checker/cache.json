@@ -1,0 +1,3487 @@
+{
+ "builder": {
+  "_version": "<undefined>",
+  "_logger": "hdl_checker.builders.fallback",
+  "_work_folder": "/home/tirumal/RP/scenic-accelerator-v2/.hdl_checker",
+  "_builtin_libraries": [],
+  "_added_libraries": [
+   {
+    "name": "default_library",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   }
+  ],
+  "__class__": "Fallback"
+ },
+ "config_file": [
+  {
+   "name": "/tmp/hdl_checker_project_pid38330.json",
+   "__class__": "Path"
+  },
+  1675244476.0080843,
+  "generated"
+ ],
+ "database": {
+  "sources": [
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/regfile.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/fifo_buffer_bank.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633896836.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/regfile.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633971562.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/simple_dpram_sclk.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/dnn_hw_top.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633761234.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/pe_array.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1675244360.6726956,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/regfile.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/dnn_hw_top.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633761234.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/simple_dpram_sclk.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/simple_dpram_sclk.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/fifo.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/fifo.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633985656.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/tb/dwt_tb.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1631812484.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/muxes.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633968634.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/fifo.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/dwt/dwt_adder.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1631812460.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/fifo_buffer_bank.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633896836.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/dwt/dwt_top.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1631812466.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/pe_array.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633629338.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/ml_ctrl_fsm.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633896546.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/regfile.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/muxes.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633895944.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/pe.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633964852.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/muxes.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633968634.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348664.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/pe_array.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633964928.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/pe.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/pe.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1675244360.6726956,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/simple_dpram_sclk.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/tb/conv_tb.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1675244495.927987,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/fifo_buffer_bank.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633761600.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/simple_dpram_sclk.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/dnn_hw_top.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1675244360.6726956,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/fifo_buffer_bank.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633896836.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/muxes.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633968634.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/muxes.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633968634.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/dnn_hw_top.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633761234.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/fifo.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1650709776.170857,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/simple_dpram_sclk.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/dwt/dwt_pe.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1631812476.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633985656.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633985560.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/ml_ctrl_fsm.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633896546.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/pe.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633971726.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348664.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/ml_ctrl_fsm.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1675244360.6726956,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/pe.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633971726.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/fifo.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/pe_array.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633964928.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/fifo.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/muxes.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633934900.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/dnn_hw_top.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633761234.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/ml_ctrl_fsm.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633971690.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/regfile.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633971562.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633971562.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/pe_array.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633964928.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/pe.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633896252.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/ml_ctrl_fsm.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633760948.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/pe_array.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633629338.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633971368.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/dwt/dwt_multiplier.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1631812472.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/fifo_buffer_bank.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633896836.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/ml_ctrl_fsm.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633971690.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/regfile.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633348666.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/fifo_buffer_bank.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1675244360.6726956,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/dnn_hw_top.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1633761234.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   }
+  ],
+  "inferred_libraries": [
+   {
+    "name": "/tmp/tmp352hawwb.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp3i66rpi4.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpw93pc7g1.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp3lliag4u.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpfvat819j.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpecp904ir.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/fifo_buffer_bank.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/home/tirumal/RP/scenic-accelerator-v2/src/tb/conv_tb.sv",
+    "__class__": "Path"
+   }
+  ],
+  "design_units": [
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux2to1",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      17,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "alu",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      38,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "demux_1x4",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      64,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "demux_1x15",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      104,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/dnn_hw_top.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "dnn_hw_top",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "booth_multiplier",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/ml_ctrl_fsm.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "ml_ctrl_fsm",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/regfile.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "regfile",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/fifo.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "fifo",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      14,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "d_flipflop",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "alu",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      38,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/fifo.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "fifo",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      14,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "serial_adder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      46,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/pe_array.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "pe_array",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/fifo_buffer_bank.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "fifo_buffer_bank",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "demux_1x15",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      104,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "full_adder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      15,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "d_flipflop",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/regfile.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "regfile",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "demux_1x4",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      64,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux2to1",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      17,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux2to1",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      17,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/ml_ctrl_fsm.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "ml_ctrl_fsm",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "full_adder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      15,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux_4x1",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      49,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/pe.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "PE",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "full_adder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      15,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "serial_adder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      46,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "d_flipflop",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "demux_1x15",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      104,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/simple_dpram_sclk.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "simple_dpram_sclk",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      14,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/tb/conv_tb.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "conv_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      65,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "demux_1x4",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      64,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "booth_multiplier",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/regfile.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "regfile",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/pe.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "PE",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "demux_1x4",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      64,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "demux_1x4",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      64,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "full_adder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      14,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/regfile.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "regfile",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/pe_array.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "pe_array",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux_4x1",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      49,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "serial_adder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      46,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "piso",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      24,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "demux_1x15",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      104,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux1to2",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      28,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "demux_1x15",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      104,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/dnn_hw_top.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "dnn_hw_top",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "demux_1x15",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      104,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/fifo_buffer_bank.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "fifo_buffer_bank",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "alu",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      38,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/pe_array.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "pe_array",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "alu",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      38,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/regfile.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "regfile",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/simple_dpram_sclk.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "simple_dpram_sclk",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      14,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "alu",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      38,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/dwt/dwt_pe.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "PE",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux2to1",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      17,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "full_adder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      15,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/fifo.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "fifo",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      14,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "d_flipflop",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/simple_dpram_sclk.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "simple_dpram_sclk",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      14,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "serial_adder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      46,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux_param",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "serial_adder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      45,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/dnn_hw_top.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "dnn_hw_top",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "piso",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      24,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "piso",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      24,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/dnn_hw_top.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "dnn_hw_top",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/pe.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "PE",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/fifo.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "fifo",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      14,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux_param",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux_param",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "alu",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      38,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/dnn_hw_top.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "dnn_hw_top",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux1to2",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      28,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "piso",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      24,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux_4x1",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      49,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "full_adder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      15,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "d_flipflop",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux1to2",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      28,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/regfile.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "regfile",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/fifo.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "fifo",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      14,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "piso",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      24,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/ml_ctrl_fsm.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "ml_ctrl_fsm",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/dnn_hw_top.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "dnn_hw_top",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/fifo_buffer_bank.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "fifo_buffer_bank",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "piso",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      23,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/pe_array.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "pe_array",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/pe.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "PE",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "demux_1x4",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      64,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/pe_array.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "pe_array",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "booth_multiplier",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux_param",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "booth_multiplier",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux_4x1",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      49,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux1to2",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      28,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux_param",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "booth_multiplier",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/fifo_buffer_bank.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "fifo_buffer_bank",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux1to2",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      28,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/fifo_buffer_bank.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "fifo_buffer_bank",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux_param",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/dwt/dwt_multiplier.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "multiplier",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/tb/dwt_tb.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "dwt_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/simple_dpram_sclk.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "simple_dpram_sclk",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      14,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/pe.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "PE",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/ml_ctrl_fsm.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "ml_ctrl_fsm",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux2to1",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      17,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/fifo_buffer_bank.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "fifo_buffer_bank",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/dwt/dwt_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "priority_encoder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "serial_adder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      46,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/simple_dpram_sclk.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "simple_dpram_sclk",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      14,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/9-10-2021/fifo.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "fifo",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      14,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux2to1",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      17,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/dwt/dwt_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "adder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      150,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/ml_ctrl_fsm.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "ml_ctrl_fsm",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/booth_mult.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "booth_multiplier",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021/serial_adder.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "d_flipflop",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_21_43/pe.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "PE",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux1to2",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      28,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux_4x1",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      49,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/dwt/dwt_top.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "dwt",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/ml_ctrl_fsm.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "ml_ctrl_fsm",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/12-10-2021_2_37/muxes.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux_4x1",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      49,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/src/rtl/simple_dpram_sclk.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "simple_dpram_sclk",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      14,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/tirumal/RP/scenic-accelerator-v2/synopsys-dc-synth-logs/11-10-2021_22_43/pe_array.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "pe_array",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   }
+  ],
+  "__class__": "Database"
+ },
+ "__version__": "0.7.4"
+}

@@ -11,17 +11,14 @@ $ python3 conv.py
 **2. For test Convolution-3D, modify the stride, channels and num_filter arguments in line #234 and dimensions of activations & filters in line #129, #130.**
 
 
-**3. Open the modelsim project file** *(brain-tumor-nn-accelerator.mpf)* **inside modelsim-prj folder.**
+**3. Open ModelSim application**
 
-**4. Compile all the verilog source files in modelsim.**
+**4. Click File button on the top left of the application and go-to change directory. Go-to scenic_accelerator_v2/ directory where the repository is cloned**
 
-
-**5. Open the simulation for conv_tb module.**
-
-
-**6. Load the macro file** *(modelsim-prj/conv_wave.do)* **for generating the waveform format.**
-
-**7. Click Run -All button to complete the entire simulation. Click No for the popup "Are you sure you want to finish?"**
+**5. In the bottom "transcript" window, type the below command**
+<pre><code>
+$ source modelsim_compile.do
+</code></pre>
 
 **8. Following data will be visibile in the transcript window at the bottom**
 <pre><code>
