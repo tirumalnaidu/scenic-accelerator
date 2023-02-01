@@ -2,3 +2,4 @@ work/
 modelsim.ini
 transcript
 vsim.wlf
+.hdl_checker/
